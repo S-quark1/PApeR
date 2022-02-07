@@ -135,7 +135,7 @@
 .causes{
   width: 100%;
   /* height: 620px; */
-  height: 56vw;
+  height: 78vw;
   background-color: #f2d88f;
   position: relative;
 }
@@ -175,13 +175,13 @@
     font-size: 36pt;
   }
   .about_me img{
-    width: 170px;
+    width: 180px;
   }
   .i_like_paper{
     height: 420px;
   }
   .why_like_paper h1{
-    font-size: 60pt;
+    font-size: 48pt;
   }
   .why_like_paper p{
     font-size: 36pt;
@@ -190,7 +190,7 @@
     padding-top: 15%;
   }
   .causes{
-    height: 60vw;
+    height: 100vw;
   }
   .causes h1{
     font-size: 44pt;
@@ -199,12 +199,12 @@
     padding-top: 90px;
   }
 }
-@media (max-width: 540px){
+@media (max-width: 500px){
   .greet{
     height: 230px;
   }
   .greet h1{
-    font-size: 60pt;
+    font-size: 45pt;
   }
   .about_me{
     height: 250px;
@@ -212,14 +212,11 @@
   .about_me p{
     font-size: 24pt;
   }
-  .about_me img{
-    width: 130px;
-  }
   .i_like_paper{
     height: 320px;
   }
   .why_like_paper h1{
-    font-size: 48pt;
+    font-size: 36pt;
   }
   .why_like_paper p{
     font-size: 24pt;
@@ -228,7 +225,7 @@
     padding-top: 18%;
   }
   .causes{
-    height: 64vw;
+    height: 100vw;
   }
   .causes h1{
     font-size: 34pt;
