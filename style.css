@@ -196,6 +196,7 @@
     font-size: 44pt;
   }
   .carousel{
+    width: 86%;
     padding-top: 90px;
   }
 }
@@ -229,5 +230,8 @@
   }
   .causes h1{
     font-size: 34pt;
+  }
+  .carousel{
+    width: 96%;
   }
 }
