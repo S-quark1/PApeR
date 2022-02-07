@@ -44,8 +44,8 @@
 }
 /*  */
 .greet{
-  /* min-height: 325px; */
-  height: 25vw;
+  height: 325px;
+  /* height: 25vw; */
   background-color: #f2d88f;
   width: 100%;
   padding-top: 33px;
@@ -55,17 +55,18 @@
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 5vw;
+  /* padding-top: 5vw; */
+  padding-top: 70px;
   font-family: 'Playfair Display', serif;
-  /* font-size: 108pt; */
-  font-size: 10vw;
+  font-size: 108pt;
+  /* font-size: 10vw; */
   position: absolute;
 }
 /*  */
 .about_me{
   width: 100%;
-  /* min-height: 400px; */
-  height: 26vw;
+  height: 400px;
+  /* height: 26vw; */
   background-color: #f2d88f;
   margin: auto;
   position: relative;
@@ -73,8 +74,11 @@
   font-family: 'Dongle', sans-serif;
 }
 .about_me p{
-  /* font-size: 48pt; */
-  font-size: 4.5vw;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 48pt;
+  /* font-size: 4.5vw; */
 }
 .about_me p span{
   padding-left: 10px;
@@ -82,20 +86,19 @@
   /* background-color: #f5de9f; */
 }
 .about_me img{
-  /* width: 230px; */
-  width: 20vw;
+  width: 230px;
+  /* width: 20vw; */
   height: auto;
 }
 /*  */
 .i_like_paper{
-  /* min-height: 640px; */
-  height: 45vw;
+  height: 520px;
+  /* height: 45vw; */
   background-color: #f2d88f;
   width: 100%;
   position: relative;
 }
 .why_like_paper{
-  width: 60%;
   position: absolute;
   /* background-color: #ffff; */
   padding-left: 10%;
@@ -103,15 +106,15 @@
   font-family: 'Dongle', sans-serif;
 }
 .why_like_paper h1{
-  /* font-size: 84pt; */
-  font-size: 7.2vw;
+  font-size: 84pt;
+  /* font-size: 7.2vw; */
 }
 .why_like_paper p{
   padding-left: 2.8%;
   background-color: rgba(245, 222, 159, 0.8);
   /* background-color: rgba(256, 256, 256, 0.6); */
-  /* font-size: 48pt; */
-  font-size: 4.5vw;
+  font-size: 48pt;
+  /* font-size: 4.5vw; */
 }
 .photo{
   width: 80%;
@@ -119,18 +122,20 @@
   float: right;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 7%;
+  padding-top: 10%;
 }
 .photo img {
   width: 100%;
   height: auto;
-  border-radius: 2%;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
 }
 /*  */
 .causes{
   width: 100%;
-  /* min-height: 780px; */
-  height: 47vw;
+  /* height: 620px; */
+  height: 56vw;
   background-color: #f2d88f;
   position: relative;
 }
@@ -139,21 +144,93 @@
   margin: auto;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  /* font-size: 54pt; */
-  font-size: 4.7vw;
+  font-size: 54pt;
+  /* font-size: 4.7vw; */
   position: absolute;
 }
 .carousel {
   margin: auto;
   text-align: center;
-  /* padding-top: 120px; */
-  padding-top: 8.7vw;
-  width: 63%;
+  padding-top: 120px;
+  /* padding-top: 8.7vw; */
+  width: 70%;
   height: auto;
 }
 .carousel-item{
   border-color: white;
   border-style: solid;
   border-width: medium;
-  
+}
+@media (max-width: 833px){
+  .greet{
+    height: 270px;
+  }
+  .greet h1{
+    font-size: 80pt;
+  }
+  .about_me{
+    height: 330px;
+  }
+  .about_me p{
+    font-size: 36pt;
+  }
+  .about_me img{
+    width: 170px;
+  }
+  .i_like_paper{
+    height: 420px;
+  }
+  .why_like_paper h1{
+    font-size: 60pt;
+  }
+  .why_like_paper p{
+    font-size: 36pt;
+  }
+  .photo{
+    padding-top: 15%;
+  }
+  .causes{
+    height: 60vw;
+  }
+  .causes h1{
+    font-size: 44pt;
+  }
+  .carousel{
+    padding-top: 90px;
+  }
+}
+@media (max-width: 540px){
+  .greet{
+    height: 230px;
+  }
+  .greet h1{
+    font-size: 60pt;
+  }
+  .about_me{
+    height: 250px;
+  }
+  .about_me p{
+    font-size: 24pt;
+  }
+  .about_me img{
+    width: 130px;
+  }
+  .i_like_paper{
+    height: 320px;
+  }
+  .why_like_paper h1{
+    font-size: 48pt;
+  }
+  .why_like_paper p{
+    font-size: 24pt;
+  }
+  .photo{
+    padding-top: 18%;
+  }
+  .causes{
+    height: 64vw;
+  }
+  .causes h1{
+    font-size: 34pt;
+  }
 }
