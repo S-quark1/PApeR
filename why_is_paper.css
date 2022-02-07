@@ -1,0 +1,82 @@
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateY(0rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(1rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(0rem);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(1);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(0rem);
+    -webkit-opacity: 0;
+  }
+}
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+.why{
+  min-height: 325px;
+  background-color: #f2d88f;
+  width: 100%;
+  position: relative;
+}
+.why h1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Playfair Display', serif;
+  font-size: 108pt;
+  position: absolute;
+}
+.card_bar{
+  padding-top: 10px;
+  min-height: 1200px;
+  background-color: #f2d88f;
+  width: 100%;
+  position: relative;
+}
+.cards{
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Dongle', sans-serif;
+}
+.card-body{
+  border-style: dashed;
+}
+.card-body h1{
+  font-size: 48pt;
+}
+.card-body p{
+  font-size: 24pt;
+}
