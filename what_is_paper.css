@@ -46,8 +46,8 @@
 .i_like_paper{
   /* padding-top: 33px; */
   padding-top: 100px;
-  height: 1300px;
-  /* height: 90vw; */
+  /* height: 1300px; */
+  height: 90vw;
   background-color: #f2d88f;
   width: 100%;
   position: relative;
@@ -85,6 +85,9 @@
   height: auto;
 }
 @media (max-width: 833px){
+  .i_like_paper{
+    height: 170vw;
+  }
   .what_paper h1{
     font-size: 90px;
   }
@@ -97,14 +100,20 @@
   }
 }
 @media (max-width: 500px){
-  .what_paper h1{
-    font-size: 80px;
+  .i_like_paper{
+    height: 220vw;
+  }
+  .what_paper{
+    padding-left: 5%;
   }
   .what_paper p{
-    font-size: 28px;
+    width: 95%;
   }
   .photo{
     padding-top: 16%;
+  }
+  .photo img {
+    width: 100vw;
   }
 }
 @media (max-width: 400px){

@@ -92,10 +92,9 @@
 }
 /*  */
 .i_like_paper{
-  height: 580px;
+  height: 520px;
   /* height: 45vw; */
   background-color: #f2d88f;
-  width: 100%;
   position: relative;
 }
 .why_like_paper{
@@ -133,6 +132,7 @@
 }
 /*  */
 .causes{
+  padding-top: 50px;
   width: 100%;
   /* height: 620px; */
   height: 78vw;
@@ -215,6 +215,9 @@
   }
   .i_like_paper{
     height: 320px;
+  }
+  .why_like_paper{
+    padding-left: 5%;
   }
   .why_like_paper h1{
     font-size: 36pt;
