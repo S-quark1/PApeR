@@ -71,13 +71,13 @@
   background-color: rgba(256, 256, 256, 0.7);
   border-style: dashed;
   /* background-color: rgba(245, 222, 159, 0.7); */
-  font-size: 44pt;
-  /* font-size: 4vw; */
+  /* font-size: 44pt; */
+  font-size: 4vw;
 }
 .photo{
   flex: 1;
   float: right;
-  padding-top: 9%; /* more work ahead... */
+  padding-top: 7%; /* more work ahead... */
   padding-right: 7%;
 }
 .photo img {
@@ -92,6 +92,9 @@
     width: 90%;
     font-size: 36px;
   }
+  .photo{
+    padding-top: 11%;
+  }
 }
 @media (max-width: 500px){
   .what_paper h1{
@@ -99,6 +102,9 @@
   }
   .what_paper p{
     font-size: 28px;
+  }
+  .photo{
+    padding-top: 16%;
   }
 }
 @media (max-width: 400px){
