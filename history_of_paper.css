@@ -44,16 +44,15 @@
 }
 /*  */
 .i_like_paper{
-  padding-top: 33px;
-  /* min-height: 2250px; */
-  height: 180vw;
+  padding-top: 60px;
+  min-height: 2250px;
+  /* height: 180vw; */
   background-color: #f2d88f;
   width: 100%;
   position: relative;
 }
 .history_paper{
-  padding-top: 6vw;
-  width: 75%;
+  padding-top: 5vw;
   position: absolute;
   /* background-color: #ffff; */
   padding-left: 10%;
@@ -61,9 +60,11 @@
   font-family: 'Dongle', sans-serif;
 }
 .history_paper h1{
-  font-size: 10vw;
+  font-size: 15vw;
+  /* font-size: 108pt; */
 }
 .history_paper p{
+  width: 75%;
   padding-left: 20px;
   background-color: rgba(256, 256, 256, 0.55);
   /* border-style: dashed; */
@@ -72,12 +73,13 @@
   font-size: 3.1vw;
 }
 .history_paper h5{
+  width: 75%;
   padding-left: 20px;
   background-color: rgba(256, 256, 256, 0.7);
   border-style: dashed;
   /* background-color: rgba(245, 222, 159, 0.7); */
-  /* font-size: 38pt; */
-  font-size: 3.4vw;
+  font-size: 38pt;
+  /* font-size: 4vw; */
 }
 .photo{
   flex: 1;
@@ -90,7 +92,19 @@
 }
 .photo img {
   width: auto;
-  /* height: 1300px; */
-  height: 100vw;
+  height: 1300px;
+  /* height: 100vw; */
   opacity: 0.95;
+}
+@media (max-width: 833px){
+  .history_paper h1{
+    font-size: 18vw;
+  }
+  .history_paper h5{
+    font-size: 7vw;
+  }
+}
+@media (max-width: 500px){
+}
+@media (max-width: 400px){
 }
