@@ -46,7 +46,7 @@
 .i_like_paper{
   /* padding-top: 33px; */
   padding-top: 100px;
-  /* height: 1300px; */
+  /* min-height: 1400px; */
   height: 90vw;
   background-color: #f2d88f;
   width: 100%;
@@ -55,15 +55,17 @@
 .what_paper{
   /* padding-top: 6vw; */
   position: absolute;
-  /* background-color: #ffff; */
+  min-height: 30px;
+  background-color: inherit;
   padding-left: 10%;
   text-align: left;
   font-family: 'Dongle', sans-serif;
 }
 .what_paper h1{
-  /* font-size: 10vw; */
-  /* padding-bottom: 0.7vw; */
-  font-size: 108px;
+  /* font-size: 108px; */
+  font-size: 15vw;
+  position: relative;
+  z-index: 2;
 }
 .what_paper p{
   width: 70%;
@@ -71,14 +73,18 @@
   background-color: rgba(256, 256, 256, 0.7);
   border-style: dashed;
   /* background-color: rgba(245, 222, 159, 0.7); */
-  /* font-size: 44pt; */
-  font-size: 4vw;
+  font-size: 42pt;
+  /* font-size: 4vw; */
+  position: relative;
+  z-index: 2;
 }
 .photo{
   flex: 1;
   float: right;
-  padding-top: 7%; /* more work ahead... */
+  padding-top: 14%;
   padding-right: 7%;
+  position: relative;
+  z-index: 1;
 }
 .photo img {
   width: 70vw;
@@ -86,14 +92,14 @@
 }
 @media (max-width: 833px){
   .i_like_paper{
-    height: 170vw;
+    height: 110vw;
   }
   .what_paper h1{
-    font-size: 90px;
+    font-size: 18vw;
   }
   .what_paper p{
     width: 90%;
-    font-size: 36px;
+    font-size: 38px;
   }
   .photo{
     padding-top: 11%;
@@ -121,6 +127,6 @@
     font-size: 60px;
   }
   .what_paper p{
-    font-size: 24px;
+    font-size: 30pt;
   }
 }
