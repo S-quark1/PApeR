@@ -69,8 +69,8 @@
   background-color: rgba(256, 256, 256, 0.55);
   /* border-style: dashed; */
   /* background-color: rgba(245, 222, 159, 0.7); */
-  /* font-size: 34pt; */
-  font-size: 3.1vw;
+  font-size: 32pt;
+  /* font-size: 3.3vw; */
 }
 .history_paper h5{
   width: 75%;
@@ -84,7 +84,7 @@
 .photo{
   flex: 1;
   float: right;
-  padding-top: 15%;
+  padding-top: 20%;
   padding-right: 7%;
 }
 .photo li{
@@ -92,8 +92,8 @@
 }
 .photo img {
   width: auto;
-  height: 1300px;
-  /* height: 100vw; */
+  height: 1500px;
+  /* height: 130vw; */
   opacity: 0.95;
 }
 @media (max-width: 833px){
@@ -107,14 +107,34 @@
     width: 95%;
     font-size: 30pt;
   }
+  .history_paper p{
+    width: 95%;
+    font-size: 26pt;
+  }
+  .photo{
+    padding-top: 35%;
+    padding-right: 20%;
+  }
+  .photo img {
+    content: url("pics/ae4.jpg");
+  }
 }
 @media (max-width: 500px){
   .history_paper h1{
     font-size: 56pt;
   }
+  .photo img {
+    content: url("pics/ae5.jpg")
+  }
+  .history_paper p{
+    font-size: 24pt;
+  }
 }
 @media (max-width: 400px){
   .history_paper h1{
     font-size: 45pt;
+  }
+  .history_paper p{
+    font-size: 20pt;
   }
 }
