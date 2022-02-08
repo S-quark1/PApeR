@@ -45,13 +45,17 @@
 /*  */
 .i_like_paper{
   padding-top: 60px;
-  min-height: 2250px;
-  /* height: 180vw; */
+  /* min-height: 2300px; */
+  /* min-height: 2000px; */
+  /* min-height: 300vh; */
   background-color: #f2d88f;
   width: 100%;
   position: relative;
+  border-style: solid;
 }
 .history_paper{
+  min-height: 2200px;
+  background-color: inherit;
   padding-top: 5vw;
   position: absolute;
   /* background-color: #ffff; */
@@ -61,6 +65,8 @@
 }
 .history_paper h1{
   font-size: 15vw;
+  position: relative;
+  z-index: 2;
   /* font-size: 108pt; */
 }
 .history_paper p{
@@ -71,6 +77,8 @@
   /* background-color: rgba(245, 222, 159, 0.7); */
   font-size: 32pt;
   /* font-size: 3.3vw; */
+  position: relative;
+  z-index: 2;
 }
 .history_paper h5{
   width: 75%;
@@ -80,12 +88,16 @@
   /* background-color: rgba(245, 222, 159, 0.7); */
   font-size: 38pt;
   /* font-size: 4vw; */
+  position: relative;
+  z-index: 2;
 }
 .photo{
   flex: 1;
   float: right;
   padding-top: 20%;
   padding-right: 7%;
+  position:relative;
+  z-index: 1;
 }
 .photo li{
   background-color: white;
@@ -96,6 +108,11 @@
   /* height: 130vw; */
   opacity: 0.95;
 }
+/* @media (max-width: 1240px){
+  .i_like_paper{
+    height: 2500px;
+  }
+} */
 @media (max-width: 833px){
   .history_paper{
     padding-left: 5%;
