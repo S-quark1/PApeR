@@ -97,14 +97,24 @@
   opacity: 0.95;
 }
 @media (max-width: 833px){
+  .history_paper{
+    padding-left: 5%;
+  }
   .history_paper h1{
     font-size: 18vw;
   }
   .history_paper h5{
-    font-size: 7vw;
+    width: 95%;
+    font-size: 30pt;
   }
 }
 @media (max-width: 500px){
+  .history_paper h1{
+    font-size: 56pt;
+  }
 }
 @media (max-width: 400px){
+  .history_paper h1{
+    font-size: 45pt;
+  }
 }
