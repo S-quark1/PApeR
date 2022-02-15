@@ -55,7 +55,7 @@
   text-align: center;
   padding-top: 100px;
   font-family: 'Playfair Display', serif;
-  font-size: 108pt;
+  font-size: 100pt;
   position: absolute;
 }
 .card_bar{
@@ -79,4 +79,14 @@
 }
 .card-body p{
   font-size: 24pt;
+}
+@media (max-width: 893px){
+  .why h1{
+    font-size: 14vw;
+  }
+}
+@media (max-width: 600px){
+  .why h1{
+    font-size: 70pt;
+  }
 }

@@ -44,38 +44,97 @@
 }
 
 .i_like_paper{
-  padding-top: 120px;
-  min-height: 800px;
+  /* padding-top: 33px; */
+  padding-top: 100px;
+  /* min-height: 1400px; */
+  /* height: 92vw; */
   background-color: #f2d88f;
   width: 100%;
   position: relative;
 }
-.why_like_paper{
-  width: 60%;
+.what_paper{
+  /* padding-top: 6vw; */
   position: absolute;
-  /* background-color: #ffff; */
-  padding-left: 10%;
+  min-height: 30px;
+  background-color: inherit;
   text-align: left;
   font-family: 'Dongle', sans-serif;
+  padding-bottom: 20px;
 }
-.why_like_paper h1{
-  font-size: 104pt;
+.what_paper h1{
+  /* font-size: 108px; */
+  font-size: 15vw;
+  padding-left: 10%;
+  position: relative;
+  z-index: 2;
 }
-.why_like_paper p{
+.what{
+  padding-left: 10%;
+}
+.what_paper p{
+  width: 70%;
   padding-left: 20px;
-  background-color: rgba(245, 222, 159, 1);
-  font-size: 48pt;
+  background-color: rgba(256, 256, 256, 0.7);
+  border-style: dashed;
+  /* background-color: rgba(245, 222, 159, 0.7); */
+  font-size: 42pt;
+  /* font-size: 4vw; */
+  position: relative;
+  z-index: 2;
 }
 .photo{
+  padding-left: 10%;
   flex: 1;
   float: right;
-  padding-right: 6%;
-  padding-top: 6%;
+  padding-top: 14%;
+  padding-right: 7%;
+  position: relative;
+  z-index: 1;
 }
 .photo img {
-  width: 450px;
-  height: auto;
-  border-radius: 50%;
-  border-style: dashed;
-  border-color: black;
+  width: auto;
+  height: 700px;
+  /* border-radius: 10%; */
 }
+@media (max-width: 833px){
+  .i_like_paper{
+    height: 110vw;
+  }
+  .what_paper h1{
+    font-size: 18vw;
+  }
+  .what_paper p{
+    width: 90%;
+    font-size: 38px;
+  }
+  .photo{
+    padding-top: 20%;
+  }
+  .photo img {
+    height: 400px;
+  }
+}
+@media (max-width: 500px){
+  .i_like_paper{
+    height: 220vw;
+  }
+  .what_paper h1{
+    padding-left: 5%;
+  }
+  .what{
+    padding-left: 5%;
+  }
+  .what_paper p{
+    width: 95%;
+  }
+  .photo{
+    padding-top: 16%;
+  }
+}
+@media (max-width: 400px){
+  .what_paper h1{
+    font-size: 60px;
+  }
+  .what_paper p{
+    font-size: 30pt;
+  }

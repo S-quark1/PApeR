@@ -19,14 +19,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <title>PApeR</title>
     <link rel="icon" type="image/x-icon" href="pics/favicon.jpg">
   </head>
-  <body>
+  <body id="body">
     <!-- nav-bar -->
     <section class="nav-bar">
       <nav class=" navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #fff8e3;">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="pics/paper-icon-614x460.png" width="30" height="30" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +70,7 @@
               </div>
             </li>
           </ul>
-          <a class="navbar-brand" href="#">PAPER</a>
+          <a class="navbar-brand" href="index.html">PAPER</a>
         </div>
       </nav>
     </section>
@@ -187,6 +188,14 @@
           </div>
         </div>
       </div> -->
+    </section>
+    <section class="calculate" id="calc">
+      <h1>Trees to paper calculator</h1>
+      <div class="calc">
+        <h1>The
+          <input id="inputTrees" type="number" placeholder="number of trees" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+        trees will make <span id="outputReams" style="">_</span> reams and <span id="outputSheets">_</span> sheets of paper!</h1>
+      </div>
     </section>
     <!-- <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>

@@ -1,10 +1,17 @@
-// .dropdown .dropdown-menu {
-//   -webkit-transition: all .2s linear;
-//   -o-transition: all .2s linear;
-//   transition: all .2s linear;
-//   display: block !important;
-//   transform: scale(0);
+// if(window.addEventListener){
+//   window.addEventListener('scroll',scroll)
+// }else if(window.attachEvent){
+//   window.attachEvent('onscroll',scroll);
 // }
-// .dropdown .dropdown-menu.show{
-//   transform: scale(1);
+//
+// function scroll(ev){
+//   var st = Math.max(document.documentElement.scrollTop,document.body.scrollTop);
+//   if((st+document.documentElement.clientHeight+1)>=document.documentElement.scrollHeight){
+//     alert("Check out the calculator!");
+//   }
 // }
+
+function weightConverter(valNum) {
+  document.getElementById("outputReams").innerHTML=Math.floor(valNum*20);
+  document.getElementById("outputSheets").innerHTML=Math.floor(valNum*10000);
+}

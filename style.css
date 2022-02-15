@@ -135,7 +135,8 @@
   /* padding-top: 50px; */
   width: 100%;
   /* height: 620px; */
-  height: 78vw;
+  /* height: 78vw; */
+  min-height: 100px;
   background-color: #f2d88f;
   position: relative;
 }
@@ -146,12 +147,11 @@
   font-family: 'Playfair Display', serif;
   font-size: 54pt;
   /* font-size: 4.7vw; */
-  position: absolute;
 }
 .carousel {
   margin: auto;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 50px;
   /* padding-top: 8.7vw; */
   width: 70%;
   height: auto;
@@ -161,18 +161,51 @@
   border-style: solid;
   border-width: medium;
 }
+.calculate{
+  min-height: 30px;
+  /* height: 25vw; */
+  background-color: #f2d88f;
+  width: 100%;
+  padding-top: 70px;
+  position: relative;
+}
+.calculate h1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 54pt;
+}
+.calc{
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.calc h1{
+  padding: 25px 10px 25px 10px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 44pt;
+  font-family: 'Dongle', sans-serif;
+  position: relative;
+  background-color: rgba(256, 256, 256, 0.7);
+  border-style: dashed;
+}
+.calc input{
+  width: 300px;
+}
 @media (max-width: 833px){
   .greet{
     height: 270px;
   }
   .greet h1{
-    font-size: 80pt;
+    font-size: 90pt;
   }
   .about_me{
     height: 330px;
   }
   .about_me p{
-    font-size: 36pt;
+    font-size: 44pt;
   }
   .about_me img{
     width: 180px;
@@ -181,7 +214,7 @@
     height: 420px;
   }
   .why_like_paper h1{
-    font-size: 48pt;
+    font-size: 70pt;
   }
   .why_like_paper p{
     font-size: 36pt;
@@ -189,29 +222,19 @@
   .photo{
     padding-top: 15%;
   }
-  .causes{
-    height: 100vw;
-  }
-  .causes h1{
-    font-size: 44pt;
-  }
   .carousel{
     width: 86%;
-    padding-top: 90px;
+  }
+  .calc h1{
+    width: 86%;
   }
 }
-@media (max-width: 500px){
-  .greet{
-    height: 230px;
-  }
+@media (max-width: 600px){
   .greet h1{
-    font-size: 45pt;
-  }
-  .about_me{
-    height: 250px;
+    font-size: 80pt;
   }
   .about_me p{
-    font-size: 24pt;
+    font-size: 34pt;
   }
   .i_like_paper{
     height: 320px;
@@ -220,21 +243,55 @@
     padding-left: 5%;
   }
   .why_like_paper h1{
-    font-size: 36pt;
+    font-size: 60pt;
   }
   .why_like_paper p{
-    font-size: 24pt;
+    font-size: 34pt;
   }
   .photo{
     padding-top: 18%;
   }
-  .causes{
-    height: 400px;
-  }
-  .causes h1{
-    font-size: 34pt;
-  }
   .carousel{
     width: 96%;
+  }
+}
+@media (max-width: 500px){
+  .greet{
+    height: 230px;
+  }
+  .greet h1{
+    font-size: 65pt;
+  }
+  .about_me{
+    height: 270px;
+  }
+  .about_me p{
+    font-size: 28pt;
+  }
+  .why_like_paper h1{
+    font-size: 50pt;
+  }
+  .why_like_paper p{
+    font-size: 28pt;
+  }
+  .causes h1{
+    font-size: 45pt;
+  }
+  .calculate h1{
+    font-size: 40pt;
+  }
+  .calc h1{
+    font-size: 30pt;
+  }
+  .calc input{
+    width: 210px;
+  }
+}
+@media (max-width: 410px){
+  .greet h1{
+    font-size: 50pt;
+  }
+  .about_me p{
+    font-size: 24pt;
   }
 }
