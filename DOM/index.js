@@ -12,6 +12,7 @@
 // }
 
 function weightConverter(valNum) {
-  document.getElementById("outputReams").innerHTML=Math.floor(valNum*20);
-  document.getElementById("outputSheets").innerHTML=Math.floor(valNum*10000);
+  document.getElementById("outputReams").innerHTML=Math.floor(valNum*17);
+  document.getElementById("outputSheets").innerHTML=Math.floor(valNum*8400);
+  document.getElementById("outputKgs").innerHTML=Math.floor(valNum*42);
 }

@@ -191,6 +191,10 @@
   background-color: rgba(256, 256, 256, 0.7);
   border-style: dashed;
 }
+.calc h1 li{
+  padding-left: 10%;
+  text-align: left;
+}
 .calc input{
   width: 300px;
 }
