@@ -1,0 +1,24 @@
+@keyframes bang {
+	 from {
+		 transform: translate3d(0, 0, 0);
+		 opacity: 1;
+	}
+}
+.hoverme {
+  cursor: pointer;
+  position: relative;
+}
+.hoverme span {
+  color: #333;
+  font-size: 0.9em;
+}
+.hoverme i {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  width: 3px;
+  height: 8px;
+  background: red;
+  opacity: 0;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="how_is_paper.css">
+    <link rel="stylesheet" href="particles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -16,6 +17,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <title>How is PApeR?</title>
     <link rel="icon" type="image/x-icon" href="pics/favicon.jpg">
   </head>
@@ -73,12 +76,12 @@
     <!-- I like paper content -->
     <section class="i_like_paper">
       <div class="what_paper">
-        <h1>How is PApeR?</h1>
+        <h1>How is <span class="hoverme" id="incorrect">PApeR</span>?</h1>
         <div class="what">
           <p>These are hard times for paper because of the decrease
             in the number of trees. It believes that computers are doing
             even better job of preserving information like it itself does and
-            that only means paper is at risk. Because files on computer does not require any wood
+            that only means <span class="hoverme" id="incor">Paper</span> is at risk. Because files on computer does not require any wood
             which will only help the environment.</p>
             <p>Thanks for asking &lt;3</p><br>
         </div>
@@ -90,10 +93,6 @@
         <a href="#"><img src="pics/bird.jpg"></a>
       </div>
     </section>
-    <!-- <script type="text/javascript">
-    function weightConverter(valNum) {
-document.getElementById("outputGrams").innerHTML = valNum / 0.0022046;
-}
-    </script> -->
+    <script src="DOM/paperChecker.js" charset="utf-8"></script>
   </body>
 </html>

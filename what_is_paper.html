@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="what_is_paper.css">
+    <link rel="stylesheet" href="particles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -16,6 +17,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <title>What is PApeR?</title>
     <link rel="icon" type="image/x-icon" href="pics/favicon.jpg">
   </head>
@@ -73,17 +76,20 @@
     <!-- I like paper content -->
     <section class="i_like_paper">
       <div class="what_paper">
-        <h1>What is PApeR?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Maecenas dapibus odio sed metus malesuada fringilla. Cras a tortor
-          vel ex maximus consequat. Integer sit amet mauris eu diam finibus
-          porta quis non justo. Duis convallis efficitur magna aliquam semper.
-          Curabitur luctus vehicula nibh, vel finibus nisl pulvinar non. Nunc
-          ac tempor est, sed maximus risus.</p>
+        <h1>What is paper?</h1>
+        <p>&bull; Modern paper is a thin material of (mostly) wood fibres pressed
+          together. People write on <span class="hoverme" id="incorrect">pAper</span> with a pencil or pen, and books
+          are made of paper. Paper can absorb liquids such as water, so
+          people can clean things with paper. There are many types of paper. <br>
+          &bull; Sometimes paper is made heavier and more glossy (shiny) by adding clay,
+          and by 'milling' it. Milling is done by squeezing the paper through a series
+          of rollers. Sometimes <span class="hoverme" id="incor">Paper</span> is made from used or waste paper: this is recycling. <br>
+          &bull; We use paper almost every day. <br>For example, look around and you're bound to see at least a scrap of it!</p>
       </div>
       <div class="photo">
         <a href="#"><img src="pics/notes.jpg"></a>
       </div>
     </section>
+    <script src="DOM/paperChecker.js" charset="utf-8"></script>
   </body>
 </html>
