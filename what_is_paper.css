@@ -71,7 +71,7 @@
   width: 70%;
   padding-left: 20px;
   background-color: rgba(256, 256, 256, 0.7);
-  border-style: dashed;
+  /* border-style: dashed; */
   /* background-color: rgba(245, 222, 159, 0.7); */
   font-size: 42pt;
   /* font-size: 4vw; */

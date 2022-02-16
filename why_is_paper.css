@@ -72,7 +72,7 @@
   font-family: 'Dongle', sans-serif;
 }
 .card-body{
-  border-style: dashed;
+  /* border-style: dashed; */
 }
 .card-body h1{
   font-size: 48pt;
