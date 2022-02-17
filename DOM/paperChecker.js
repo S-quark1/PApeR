@@ -1,4 +1,23 @@
 $(document).ready(function () {
+  $("#egg").click(function () {
+    var eggs = prompt("Please, enter the amount of 'paper' you found");
+    if (eggs!=16 && eggs!=null){
+      do {
+        var eggs = prompt("Nope)");
+      } while(eggs!=16 && eggs!=null);
+    }
+    if (eggs==16){
+      if (window.confirm('Hooray! You are right... Click "ok" to get your prize and "cancel" if you dare not'))
+      {
+        window.location.href='https://youtu.be/xvFZjo5PgG0';
+      };
+    }
+  })
+  // $("#egg").hover(function () {
+  //   $(this).css("font-size", "24pt");
+  //   }, function(){
+  //   $(this).css("font-size", "22pt");
+  // })
     $("#incorrect").click(function () {
       if ($("#incorrect").text()!="paper"){
         change("#incorrect");
