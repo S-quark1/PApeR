@@ -42,7 +42,8 @@ $(document).ready(function () {
         c.appendChild(e);
       }
       $(name).append(c);
-
+      var audio = new Audio('DOM/confetti.mp3');
+      audio.play();
       $(name).fadeOut(function () {
           $(name).text("paper").fadeIn();
       })
